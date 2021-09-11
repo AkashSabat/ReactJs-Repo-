@@ -1,0 +1,70 @@
+
+steps to set up react project
+
+1) install nodejs for 32 bit installer.
+
+2) open cmd
+check version of node , npm 
+node -v
+npm -v
+create-react-app --version
+
+Open cmd from admin
+remove create-react-app command
+npm rm -g create-react-app
+
+Install create-react-app
+npm install -g create-react-app
+
+npx create-react-app test-app
+
+-----------------------------------
+
+Success! Created reactproject at E:\Akash_Data\MyWorkSpace\React\reactproject
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd test-app
+  npm start
+  
+ After making changes build your project
+	npm run build 
+	
+ You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+ Serving!                                        │
+   │                                                   │
+   │   - Local:            http://localhost:5000       │
+   │   - On Your Network:  http://192.168.0.105:5000  
+   
+   
+ ---------------------------
+
+ After making changes in your files, run this commands
+ npm run build
+ serve -s build
+ 
+ Find process by port number command
+ netstat -ano | findstr :3000
+ 
+ Kill process command
+ tskill <Type processId>
+ tskill 123
+ 
